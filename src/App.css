@@ -1,0 +1,41 @@
+body{
+  font-family: "Trebuchet MS", Sans-Serif;
+}
+
+
+/*****************************************************************************************************************************************/
+/* NAVBAR CSS */
+
+#navbar{
+  background-color: #d9cfc1;
+  height: 80px;
+  width: auto;
+  padding: 20px;
+}
+
+#navbar-top{
+  display: flex;
+}
+
+#navbar-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#logo{
+  font-family: Copperplate;
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+  flex: 1;
+}
+
+.navar-menu-item{
+  width: 100px;
+  height: 200px;
+  border: 1px black solid;
+  background: #369;
+}
